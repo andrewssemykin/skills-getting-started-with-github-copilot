@@ -142,3 +142,29 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-section {
+  margin-top: 10px;
+  background: #f8f9fa;
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+
+.participants-list {
+  margin: 6px 0 0 0;
+  padding-left: 20px;
+}
+
+.participant-avatar {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: #0074d9;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 8px;
+  font-size: 14px;
+  line-height: 22px;
+}
