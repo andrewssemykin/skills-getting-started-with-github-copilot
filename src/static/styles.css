@@ -142,3 +142,46 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-section {
+  margin-top: 10px;
+  background: #f8f9fa;
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+
+/* Скрыть буллеты у списка участников */
+.participants-list {
+  margin: 6px 0 0 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.delete-participant {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2px;
+  margin-left: 4px;
+  border-radius: 50%;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+}
+.delete-participant:hover {
+  background: #ffeaea;
+}
+
+.participant-avatar {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background: #0074d9;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: bold;
+  margin-right: 8px;
+  font-size: 14px;
+  line-height: 22px;
+}
